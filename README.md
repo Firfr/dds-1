@@ -22,9 +22,14 @@
 
 容器内部端口`5135`，可通过设置启动参数来指定监听端口。
 
-```bash
-docker pull swr.cn-north-4.myhuaweicloud.com/firfe/dds-1:2025.08.18
-```
+- AMD64镜像
+  ```bash
+  swr.cn-north-4.myhuaweicloud.com/firfe/dds-1:2025.08.18
+  ```
+- ARM64镜像
+  ```bash
+  swr.cn-north-4.myhuaweicloud.com/firfe/dds-1:2025.08.18-arm64
+  ```
 
 ### docker run 命令部署
 
